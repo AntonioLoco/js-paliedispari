@@ -30,6 +30,7 @@ function isPalindroma(word){
             palindromo = true;
         } else {
             palindromo = false;
+            break;
         }
         
         console.log(firstPart.charAt(i),secondPart.charAt(secondPart.length - 1 - i), palindromo);
